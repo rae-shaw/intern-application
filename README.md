@@ -1,68 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Intern Application
 
-## Available Scripts
+This project is meant to be a creative, open-ended exploration of [React](https://reactjs.org/) as a way to gauge an applicant's understanding of and willingness to experiment with modern frontend development.
 
-In the project directory, you can run:
+## Goals
 
-### `npm start`
+What we're looking for:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Basic understanding of React fundamentals
+- Willingness to research and/or learn by reading code
+- Willingness to ask questions when stuck
+- Willingness to receive feedback
+- Ability to follow directions
+- Clean, consistent code
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+What we're not looking for:
 
-### `npm test`
+- Perfection
+- Whether you favor tabs or spaces (or other arbitrary style preferences)
+- A full-fledged product
+- Flawless design
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We understand that this is for an internship position and don't expect the same kind of code that a senior developer might write. So while this project is **untimed**, don't spend a sunny weekend inside hacking away trying to make everything perfect; work on it until you get bored and send it on back.
 
-### `npm run build`
+## Bootstrapping
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project was scaffolded with [Create React App](https://github.com/facebook/create-react-app), so it follows many of the CRA conventions.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this project to your own Github account.
+2. [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) the project to your computer.
+3. Run `npm install` or `yarn install` from the project root folder to [install dependencies](https://docs.npmjs.com/cli/install).
+4. Run `npm start` or `yarn start` to [start](https://create-react-app.dev/docs/available-scripts#npm-start) the CRA development server.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instructions
 
-### `npm run eject`
+We have two custom components in this project - Parent (`/src/Parent.js`) and Child (`/src/Child.js`). Parent manages state and passes that state to the Child component as props. The goal of this assignment is to use some or all of the props to customize the Child component. It can be anything - as serious or weird as you want.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Modify `Child.js` and `Child.css` to create your component.
+2. [Commit](https://www.atlassian.com/git/tutorials/saving-changes) and [push](https://help.github.com/en/github/using-git/pushing-commits-to-a-remote-repository) as you work.
+3. When finished, email a link to your forked project on Github.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Props
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Child is given these props:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- `blink`: a boolean that alternates between true/false about every second.
+- `color`: a string that represents a color. It starts as the hex code for the color "steelblue".
+- `setColor`: a callback function that sets the "color" state.
 
-## Learn More
+### Restrictions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Unless a bug or a typo is discovered, the only files that should be edited are `/src/Child.js` and `/src/Child.css`. Other files can be read/used, but not modified.
+- No additional dependencies should be added. Feel free to use any existing dependencies.
+- No additional files should be created. The exception could be a test file for Child, but this is not required.
