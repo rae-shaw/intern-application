@@ -33,7 +33,7 @@ This project was scaffolded with [Create React App](https://github.com/facebook/
 
 ## Instructions
 
-We have two custom components in this project - Parent (`/src/Parent.js`) and Child (`/src/Child.js`). Parent manages state and passes that state to the Child component as props. The goal of this assignment is to use some or all of the props to customize the Child component. It can be anything - as serious or weird as you want.
+We have two custom components in this project - Parent (`/src/Parent.js`) and Child (`/src/Child.js`). Parent manages some state and passes that state to the Child component as props. The goal of this assignment is to use some or all of the props to customize the Child component. It can be anything - as serious or weird as you want.
 
 1. Modify `Child.js` and `Child.css` to create your component.
 2. [Commit](https://www.atlassian.com/git/tutorials/saving-changes) and [push](https://help.github.com/en/github/using-git/pushing-commits-to-a-remote-repository) as you work.
