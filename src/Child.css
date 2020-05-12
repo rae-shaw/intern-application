@@ -1,0 +1,9 @@
+header {
+	display: flex;
+	flex-direction: row;
+}
+
+h1 {
+	display: flex;
+	text-align: center;
+}
