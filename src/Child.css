@@ -1,9 +1,64 @@
+.fullSection {
+	display: flex;
+	flex-direction: column;
+}
+
 header {
 	display: flex;
-	flex-direction: row;
+	justify-content: center;
 }
 
 h1 {
+	font-size: 3em;
+}
+
+main {
 	display: flex;
-	text-align: center;
+	justify-content: center;
+}
+.blackOut {
+	background-color: black;
+	height: 100vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.sign {
+	display: flex;
+	justify-content: space-evenly;
+	height: 90vh;
+
+}
+
+.button {
+	display: flex;
+    flex-direction: row;
+    background-color: #ded8ce;
+    border-radius: 4px;
+    margin: 2px;
+    width: 8em;
+    justify-content: center;
+    align-self: center;
+}
+
+.angelOne {
+	height: 200px;
+	width: 200px;
+}
+
+.angelTwo {
+	height: 500px;
+	width: 450px;
+}
+
+.angelThree {
+	height: 90vh;
+}
+
+.finalWords{
+	display: flex;
+	color: white;
+	flex-direction: column;
+	align-items: center;
 }
